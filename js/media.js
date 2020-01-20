@@ -28,12 +28,14 @@ var vid1 = "vids/video1.mp4",
       pos5 = $(".ref5").position();
 
 var mediaH = $(".media").height();
+var conH = $(".container").height();
 
-  var elePosY1 = (pos1.top - (mediaH*2)),
-      elePosY2 = (pos2.top - (mediaH*2)),
-      elePosY3 = (pos3.top - (mediaH*2)),
-      elePosY3 = (pos4.top - (mediaH*2)),
-      elePosY4 = (pos5.top - (mediaH*2));
+
+  var elePosY1 = (pos1.top),
+      elePosY2 = (pos2.top),
+      elePosY3 = (pos3.top),
+      elePosY4 = (pos4.top),
+      elePosY5 = (pos5.top);
 
 
 $(".container").scroll(function() {
@@ -45,25 +47,27 @@ $(".container").scroll(function() {
     console.log (value);
     console.log(elePosY1,elePosY2);
 
+  var value = (($(".container").scrollTop())-(elePosY1)+(conH));
+
    if (value > elePosY1 && (value < elePosY2)) {
       $(".vids").attr("src", vid1);
       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=7-POT4Dn7uI" target=”_blank” >[KCON Mexico] BTS-INTRO+Not Today 170330 EP.517</a>');
     }
-     if ((value > elePosY2) && (value < elePosY3)) {
+     if (value > elePosY2) {
       $(".vids").attr("src", vid2);
       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=JjSEsIzn3B4" target=”_blank” > ATEEZ(에이티즈) WONDERLAND (Color Coded Lyrics Eng/Rom/Han/가사)</a>');
     }
 
-    if  ((value > elePosY3) && (value < elePosY4)) {
+    if  (value > elePosY3) {
       $(".vids").attr("src", vid3);
       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=2xU2PyI-sEI" target=”_blank” >[ITZY - DALLA DALLA] Debut Stage | M COUNTDOWN 190214 EP.606</a>');
     }
 
-    if  ((value > elePosY4) && (value < elePosY5)) {
+    if  (value > elePosY4) {
       $(".vids").attr("src", vid4);
       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=HmwgNRwp4JU" target=”_blank” >PRODUCE48 [1회] 첫 도전! 울림(러블리즈)과 WM(오마이걸)의 실력파 연습생!ㅣ울림김수윤, 권은비, 김소희, 김채원, WM이채연, 이승현, 조영인 180615 EP.1</a>');
     }
-    if  ((value > elePosY5) && (value < elePosY6)) {
+    if  (value > elePosY5) {
       $(".vids").attr("src", vid5);
       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=B0OvEOXxLbA" target=”_blank” >H.O.T - 행복(Happiness), MBC Top Music 19970823</a>');
     }
