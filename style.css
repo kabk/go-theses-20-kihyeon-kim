@@ -1,0 +1,290 @@
+
+@font-face {
+  font-family: 'CooperHewitt-Book';
+  src: url('fonts/CooperHewitt-Book.eot'), * IE9 Compat Modes *
+   url('fonts/CooperHewitt-Book.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
+      url("fonts/CooperHewitt-BookI.otf") format("opentype"), /* Open Type Font */
+         url('fonts/CooperHewitt-Book.woff') format('woff'), * Modern Browsers *
+         url('fonts/CooperHewitt-Book.ttf')  format('truetype'); * Safari, Android, iOS *
+}
+@font-face {
+  font-family: 'CooperHewitt-BookItalic';
+  src: url('fonts/CooperHewitt-BookItalic.eot'), /* IE9 Compat Modes */
+   url('fonts/CooperHewitt-BookItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/CooperHewitt-BookItalic.otf') format('opentype'), /* Open Type Font */
+    url('fonts/CooperHewitt-BookItalic.svg') format('svg'), /* Legacy iOS */
+    url('fonts/CooperHewitt-BookItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/CooperHewitt-BookItalic.woff') format('woff'), /* Modern Browsers */
+    url('fonts/CooperHewitt-BookItalic.woff2') format('woff2'); /* Modern Browsers */
+
+}
+@font-face {
+  font-family: 'SangBleuKingdom-Regular';
+  src: url('/fonts/SangBleuKingdom-Regular.eot'),* IE9 Compat Modes *
+   url('/fonts/SangBleuKingdom-Regular.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
+        url("/fonts/SangBleuKingdom-Regular.otf") format("opentype"), /* Open Type Font */
+         url('/fonts/SangBleuKingdom-Regular.woff') format('woff'), * Modern Browsers *
+         url('/fonts/SangBleuKingdom-Regular.ttf')  format('truetype'); * Safari, Android, iOS *
+}
+
+@font-face {
+  font-family: 'SangBleuKingdom-Lightitalic';
+  src: url('/fonts/SangBleuKingdom-Lightitalic.eot'), * IE9 Compat Modes *
+   url('/fonts/SangBleuKingdom-Lightitalic.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
+          url("/fonts/SangBleuKingdom-Lightitalic.otf") format("opentype"), /* Open Type Font */
+         url('/fonts/SangBleuKingdom-Lightitalic.woff') format('woff'), * Modern Browsers *
+         url('/fonts/SangBleuKingdom-Lightitalic.ttf')  format('truetype'); * Safari, Android, iOS *
+}
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.cover {
+    font-family: 'CooperHewitt-Book';
+    color: white;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: absolute;
+    z-index: 100000;
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+.title{
+}
+
+
+.title p {
+  font-size: 18vw;
+  line-height: 18vw;
+  text-decoration: none;
+  padding: 4%;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.name{
+  font-size: 5vw;
+  line-height: 7vw;
+  position:absolute;
+  width: 100%;
+  padding: 4%;
+  bottom: 0;
+}
+
+.name p {
+    margin-block-start: 0em;
+        margin-block-end: 0em;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 1%;
+  font-size: 18vw;
+  width: 140px;
+}
+
+h1 {
+  font-family: 'CooperHewitt-Book';
+  color: black;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin-block-end: 3em;
+}
+
+h1 i {
+  font-family: "CooperHewitt-BookItalic";
+}
+
+h1 p {
+  padding-left: 1% 0 0 2%;
+  margin-left: 8% 0 0 10%;
+  text-decoration: none;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+h2 {
+  font-family:'SangBleuKingdom-Lightitalic';
+  color: black;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin-block-end: 3em;
+}
+
+h2 u {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+h3 {
+}
+
+
+h4 {
+  font-family: 'CooperHewitt-Book';
+  color: black;
+  font-size: 16vw;
+  line-height: 18vw;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: lighter;
+}
+
+h4 i {
+  font-family: "CooperHewitt-BookItalic";
+}
+
+
+
+#invert{
+  background-color: black;
+  -webkit-box-shadow: 100px 0px 90px 140px rgba(0,0,0,1), -100px 0px 90px 140px rgba(0,0,0,1);
+  -moz-box-shadow: 100px 0px 90px 140px rgba(0,0,0,1), -100px 0px 90px 140px rgba(0,0,0,1);
+  box-shadow: 100px 0px 90px 140px rgba(0,0,0,1), -100px 0px 90px 140px rgba(0,0,0,1);
+}
+
+#invert p {
+  font-family:'SangBleuKingdom-Lightitalic';
+  color: white;
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+
+#invert a{
+  font-family:'SangBleuKingdom-Lightitalic';
+  color: white;
+  font-size: 10vw;
+  line-height: 12vw;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: normal;
+}
+
+
+.media{
+  height: 550px;
+  width: auto;
+  z-index: 1000;
+  position: sticky;
+  top:0;
+  display: block;
+  /* max-width: 800px; */
+}
+
+/* .page-scroll-indicator {
+  width: 100%;
+  height: 5px;
+  background: white;
+}
+
+.progress {
+  width: 0%;
+  height: 5px;
+  background: red;
+} */
+
+
+.table {
+  z-index: 10000;
+  width: 100%;
+  height: 40px;
+  position: sticky;
+  padding-bottom: 1%;
+  background-color: black;
+  -webkit-box-shadow: 0px 10px 70px 40px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 10px 70px 40px rgba(0,0,0,1);
+  box-shadow: 0px 10px 70px 40px rgba(0,0,0,1);
+}
+
+.table p{
+  padding: 2% 3% 0 4%;
+  margin: 0;
+  text-align-last: justify;
+}
+
+.table a{
+  text-decoration: none;
+  color: white;
+  font-family: 'CooperHewitt-Book';
+  font-size: 3.5vw;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-weight: normal;
+}
+
+
+.container{
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 95%;
+  bottom: 0;
+  z-index: 10;
+}
+
+
+.text{
+  /* position: relative;
+  height: relative; */
+  margin: 4%;
+}
+
+
+
+.text span {
+  border: 5px outset white;
+  border-radius: 40px;
+}
+
+
+h5 {
+  font-family: 'CooperHewitt-Book';
+  font-size: 0.6vh;
+  color: black;
+  font-weight: lighter;
+}
+
+.vidsrcs{
+  z-index: 100000;
+  position: fixed;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  bottom: 0;
+  padding: 2% 4% 1% 4%;
+  border-top: 1px  white solid;
+  font-family: 'CooperHewitt-Book';
+      text-decoration: none;
+        font-size: 3vw;
+        color: white;
+
+}
+
+.vidsrcs a {
+    text-decoration: none;
+      font-size: 3vw;
+      color: white;
+
+}
