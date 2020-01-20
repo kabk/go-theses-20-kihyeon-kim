@@ -2,10 +2,14 @@
 @font-face {
   font-family: 'CooperHewitt-Book';
   src: url('fonts/CooperHewitt-Book.eot'), * IE9 Compat Modes *
-   url('fonts/CooperHewitt-Book.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
-      url("fonts/CooperHewitt-BookI.otf") format("opentype"), /* Open Type Font */
-         url('fonts/CooperHewitt-Book.woff') format('woff'), * Modern Browsers *
-         url('fonts/CooperHewitt-Book.ttf')  format('truetype'); * Safari, Android, iOS *
+  url('fonts/CooperHewitt-Book.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
+  url("fonts/CooperHewitt-BookI.otf") format("opentype"), /* Open Type Font */
+  url('fonts/CooperHewitt-Book.woff') format('woff'), * Modern Browsers *
+  url('fonts/CooperHewitt-Book.ttf')  format('truetype'), * Safari, Android, iOS *
+  url('fonts/CooperHewitt-Book.svg') format('svg'), /* Legacy iOS */
+  url('fonts/CooperHewitt-Book.woff2') format('woff2'); /* Modern Browsers */
+
+
 }
 @font-face {
   font-family: 'CooperHewitt-BookItalic';
@@ -18,22 +22,16 @@
     url('fonts/CooperHewitt-BookItalic.woff2') format('woff2'); /* Modern Browsers */
 
 }
-@font-face {
-  font-family: 'SangBleuKingdom-Regular';
-  src: url('/fonts/SangBleuKingdom-Regular.eot'),* IE9 Compat Modes *
-   url('/fonts/SangBleuKingdom-Regular.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
-        url("/fonts/SangBleuKingdom-Regular.otf") format("opentype"), /* Open Type Font */
-         url('/fonts/SangBleuKingdom-Regular.woff') format('woff'), * Modern Browsers *
-         url('/fonts/SangBleuKingdom-Regular.ttf')  format('truetype'); * Safari, Android, iOS *
-}
 
 @font-face {
   font-family: 'SangBleuKingdom-Lightitalic';
-  src: url('/fonts/SangBleuKingdom-Lightitalic.eot'), * IE9 Compat Modes *
-   url('/fonts/SangBleuKingdom-Lightitalic.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
-          url("/fonts/SangBleuKingdom-Lightitalic.otf") format("opentype"), /* Open Type Font */
-         url('/fonts/SangBleuKingdom-Lightitalic.woff') format('woff'), * Modern Browsers *
-         url('/fonts/SangBleuKingdom-Lightitalic.ttf')  format('truetype'); * Safari, Android, iOS *
+  src: url('fonts/SangBleuKingdom-Lightitalic.eot'), * IE9 Compat Modes *
+  url('fonts/SangBleuKingdom-Lightitalic.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
+  url("fonts/SangBleuKingdom-Lightitalic.otf") format("opentype"), /* Open Type Font */
+  url('fonts/SangBleuKingdom-Lightitalic.woff') format('woff'), * Modern Browsers *
+  url('fonts/SangBleuKingdom-Lightitalic.ttf')  format('truetype')
+  url('fonts/SangBleuKingdom-Lightitalic.svg') format('svg'), /* Legacy iOS */
+  url('fonts/SangBleuKingdom-Lightitalic.woff2') format('woff2'); /* Modern Browsers */; * Safari, Android, iOS *
 }
 
 
@@ -255,7 +253,7 @@ h4 i {
 
 
 .text span {
-  border: 5px outset white;
+  border: 6px outset white;
   border-radius: 40px;
 }
 

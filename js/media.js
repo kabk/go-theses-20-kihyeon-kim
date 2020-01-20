@@ -1,6 +1,8 @@
 var vid1 = "vids/video1.mp4",
     vid2 = "vids/video2.mp4",
-    vid3 = "vids/video3.mp4";
+    vid3 = "vids/video3.mp4",
+    vid4 = "vids/video4.mp4",
+    vid5 = "vids/video5.mp4";
     // vid4 = "vids/video4.mp4",
     // vid5 = "vids/video5.mp4",
     // vid6 = "vids/video6.mp4",
@@ -18,30 +20,20 @@ var vid1 = "vids/video1.mp4",
     // vid18 = "vids/video18.mp4",
     // vid19 = "vids/video19.mp4",
     // vid20 = "vids/video20.mp4",
-    // vid21 = "vids/video21.mp4",
-    // vid22 = "vids/video22.mp4",
-    // vid23 = "vids/video23.mp4",
-    // vid24 = "vids/video24.mp4",
-    // vid25 = "vids/video25.mp4",
-    // vid26 = "vids/video26.mp4",
-    // vid27 = "vids/video27.mp4",
-    // vid28 = "vids/video28.mp4",
-    // vid29 = "vids/video29.mp4",
-    // vid30 = "vids/video30.mp4”
-
-
   //
   var pos1 = $(".ref1").position(),
       pos2 = $(".ref2").position(),
       pos3 = $(".ref3").position(),
-      pos4 = $(".ref4").position();
+      pos4 = $(".ref4").position(),
+      pos5 = $(".ref5").position();
 
 var mediaH = $(".media").height();
 
   var elePosY1 = (pos1.top - (mediaH*2)),
       elePosY2 = (pos2.top - (mediaH*2)),
       elePosY3 = (pos3.top - (mediaH*2)),
-      elePosY4 = (pos4.top - (mediaH*2));
+      elePosY3 = (pos4.top - (mediaH*2)),
+      elePosY4 = (pos5.top - (mediaH*2));
 
 
 $(".container").scroll(function() {
@@ -51,21 +43,31 @@ $(".container").scroll(function() {
   var value = $(".container").scrollTop();
 
     console.log (value);
-    console.log(elePosY3,elePosY4);
+    console.log(elePosY1,elePosY2);
 
-   if ( value < elePosY2) {
+   if (value > elePosY1 && (value < elePosY2)) {
       $(".vids").attr("src", vid1);
       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=7-POT4Dn7uI" target=”_blank” >[KCON Mexico] BTS-INTRO+Not Today 170330 EP.517</a>');
     }
-    if ((value > elePosY2) && (value < elePosY3)) {
+     if ((value > elePosY2) && (value < elePosY3)) {
       $(".vids").attr("src", vid2);
-      $('.vidsrcs').html('url2 &nbsp&uarr;');
+      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=JjSEsIzn3B4" target=”_blank” > ATEEZ(에이티즈) WONDERLAND (Color Coded Lyrics Eng/Rom/Han/가사)</a>');
     }
 
-    if ((value > elePosY3) && (value < elePosY4)) {
+    if  ((value > elePosY3) && (value < elePosY4)) {
       $(".vids").attr("src", vid3);
-      $('.vidsrcs').html('url2 &nbsp&uarr;');
+      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=2xU2PyI-sEI" target=”_blank” >[ITZY - DALLA DALLA] Debut Stage | M COUNTDOWN 190214 EP.606</a>');
     }
+
+    if  ((value > elePosY4) && (value < elePosY5)) {
+      $(".vids").attr("src", vid4);
+      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=HmwgNRwp4JU" target=”_blank” >PRODUCE48 [1회] 첫 도전! 울림(러블리즈)과 WM(오마이걸)의 실력파 연습생!ㅣ울림김수윤, 권은비, 김소희, 김채원, WM이채연, 이승현, 조영인 180615 EP.1</a>');
+    }
+    if  ((value > elePosY5) && (value < elePosY6)) {
+      $(".vids").attr("src", vid5);
+      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=B0OvEOXxLbA" target=”_blank” >H.O.T - 행복(Happiness), MBC Top Music 19970823</a>');
+    }
+
   });
 
 
