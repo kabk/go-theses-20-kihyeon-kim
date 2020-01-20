@@ -1,35 +1,35 @@
 
 @font-face {
   font-family: "CooperHewitt-Book";
-  src: url("CooperHewitt-Book/CooperHewitt-Book.eot"), * IE9 Compat Modes *
-  url("CooperHewitt-Book/CooperHewitt-Book.eot#iefix") format("embedded-opentype"), * IE6-IE8 *
-  url("CooperHewitt-Book/CooperHewitt-BookI.otf") format("opentype"), /* Open Type Font */
-  url("CooperHewitt-Book/CooperHewitt-Book.woff") format("woff"), * Modern Browsers *
-  url("CooperHewitt-Book/CooperHewitt-Book.ttf")  format("truetype"), * Safari, Android, iOS *
-  url("CooperHewitt-Book/CooperHewitt-Book.svg#CooperHewitt-Book") format("svg"), /* Legacy iOS */
-  url("CooperHewitt-Book/CooperHewitt-Book.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/CooperHewitt-Book.eot"), * IE9 Compat Modes *
+  url("../fonts/CooperHewitt-Book.eot#iefix") format("embedded-opentype"), * IE6-IE8 *
+  url("../fonts/CooperHewitt-BookI.otf") format("opentype"), /* Open Type Font */
+  url("../fonts/CooperHewitt-Book.woff") format("woff"), * Modern Browsers *
+  url("../fonts/CooperHewitt-Book.ttf")  format("truetype"), * Safari, Android, iOS *
+  url("../fonts/CooperHewitt-Book.svg#CooperHewitt-Book") format("svg"), /* Legacy iOS */
+  url("../fonts/CooperHewitt-Book.woff2") format("woff2"); /* Modern Browsers */
 }
 @font-face {
   font-family: "CooperHewitt-BookItalic";
-  src: url("CooperHewitt-BookItalic/CooperHewitt-BookItalic.eot"), /* IE9 Compat Modes */
-   url("CooperHewitt-BookItalic/CooperHewitt-BookItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("CooperHewitt-BookItalic/CooperHewitt-BookItalic.otf") format("opentype"), /* Open Type Font */
-    url("CooperHewitt-BookItalic/CooperHewitt-BookItalic.svg#CooperHewitt-BookItalic") format("svg"), /* Legacy iOS */
-    url("CooperHewitt-BookItalic/CooperHewitt-BookItalic.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("CooperHewitt-BookItalic/CooperHewitt-BookItalic.woff") format("woff"), /* Modern Browsers */
-    url("CooperHewitt-BookItalic/CooperHewitt-BookItalic.woff2") format("woff2"); /* Modern Browsers */
+  src: url("fonts/CooperHewitt-BookItalic.eot"), /* IE9 Compat Modes */
+   url("../fonts/CooperHewitt-BookItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/CooperHewitt-BookItalic.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/CooperHewitt-BookItalic.svg#CooperHewitt-BookItalic") format("svg"), /* Legacy iOS */
+    url("../fonts/CooperHewitt-BookItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/CooperHewitt-BookItalic.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/CooperHewitt-BookItalic.woff2") format("woff2"); /* Modern Browsers */
 
 }
 
 @font-face {
   font-family: "SangBleuKingdom-Lightitalic";
-  src: url("SangBleuKingdom-Lightitalic/SangBleuKingdom-Lightitalic.eot"), * IE9 Compat Modes *
-  url("SangBleuKingdom-Lightitalic/SangBleuKingdom-Lightitalic.eot#iefix") format("embedded-opentype"), * IE6-IE8 *
-  url("SangBleuKingdom-Lightitalic/SangBleuKingdom-Lightitalic.otf") format("opentype"), /* Open Type Font */
-  url("SangBleuKingdom-Lightitalic/SangBleuKingdom-Lightitalic.woff") format("woff"), * Modern Browsers *
-  url("SangBleuKingdom-Lightitalic/SangBleuKingdom-Lightitalic.ttf")  format("truetype")
-  url("SangBleuKingdom-Lightitalic/SangBleuKingdom-Lightitalic.svg#SangBleuKingdom-Lightitalic") format("svg"), /* Legacy iOS */
-  url("SangBleuKingdom-Lightitalic/SangBleuKingdom-Lightitalic.woff2") format("woff2"); /* Modern Browsers */; * Safari, Android, iOS *
+  src: url("fonts/SangBleuKingdom-Lightitalic.eot"), * IE9 Compat Modes *
+  url("../fonts/SangBleuKingdom-Lightitalic.eot#iefix") format("embedded-opentype"), * IE6-IE8 *
+  url("../fonts/SangBleuKingdom-Lightitalic.otf") format("opentype"), /* Open Type Font */
+  url("../fonts/SangBleuKingdom-Lightitalic.woff") format("woff"), * Modern Browsers *
+  url("../fonts/SangBleuKingdom-Lightitalic.ttf")  format("truetype")
+  url("../fonts/SangBleuKingdom-Lightitalic.svg#SangBleuKingdom-Lightitalic") format("svg"), /* Legacy iOS */
+  url("../fonts/SangBleuKingdom-Lightitalic.woff2") format("woff2"); /* Modern Browsers */; * Safari, Android, iOS *
 }
 
 
