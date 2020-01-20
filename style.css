@@ -1,35 +1,35 @@
 
 @font-face {
   font-family: 'CooperHewitt-Book';
-  src: url('../fonts/CooperHewitt-Book.eot'), * IE9 Compat Modes *
-  url('../fonts/CooperHewitt-Book.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
-  url('../fonts/CooperHewitt-BookI.otf') format("opentype"), /* Open Type Font */
-  url('../fonts/CooperHewitt-Book.woff') format('woff'), * Modern Browsers *
-  url('../fonts/CooperHewitt-Book.ttf')  format('truetype'), * Safari, Android, iOS *
-  url('../fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg'), /* Legacy iOS */
-  url('../fonts/CooperHewitt-Book.woff2') format('woff2'); /* Modern Browsers */
+  src: url('fonts/CooperHewitt-Book.eot'), * IE9 Compat Modes *
+  url('fonts/CooperHewitt-Book.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
+  url('fonts/CooperHewitt-BookI.otf') format("opentype"), /* Open Type Font */
+  url('fonts/CooperHewitt-Book.woff') format('woff'), * Modern Browsers *
+  url('fonts/CooperHewitt-Book.ttf')  format('truetype'), * Safari, Android, iOS *
+  url('fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg'), /* Legacy iOS */
+  url('fonts/CooperHewitt-Book.woff2') format('woff2'); /* Modern Browsers */
 }
 @font-face {
   font-family: 'CooperHewitt-BookItalic';
-  src: url('../fonts/CooperHewitt-BookItalic.eot'), /* IE9 Compat Modes */
-   url('../fonts/CooperHewitt-BookItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/CooperHewitt-BookItalic.otf') format('opentype'), /* Open Type Font */
-    url('../fonts/CooperHewitt-BookItalic.svg#CooperHewitt-BookItalic') format('svg'), /* Legacy iOS */
-    url('../fonts/CooperHewitt-BookItalic.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/CooperHewitt-BookItalic.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/CooperHewitt-BookItalic.woff2') format('woff2'); /* Modern Browsers */
+  src: url('fonts/CooperHewitt-BookItalic.eot'), /* IE9 Compat Modes */
+   url('fonts/CooperHewitt-BookItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/CooperHewitt-BookItalic.otf') format('opentype'), /* Open Type Font */
+    url('fonts/CooperHewitt-BookItalic.svg#CooperHewitt-BookItalic') format('svg'), /* Legacy iOS */
+    url('fonts/CooperHewitt-BookItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/CooperHewitt-BookItalic.woff') format('woff'), /* Modern Browsers */
+    url('fonts/CooperHewitt-BookItalic.woff2') format('woff2'); /* Modern Browsers */
 
 }
 
 @font-face {
   font-family: 'SangBleuKingdom-Lightitalic';
-  src: url('../fonts/SangBleuKingdom-Lightitalic.eot'), * IE9 Compat Modes *
-  url('../fonts/SangBleuKingdom-Lightitalic.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
-  url('../fonts/SangBleuKingdom-Lightitalic.otf') format("opentype"), /* Open Type Font */
-  url('../fonts/SangBleuKingdom-Lightitalic.woff') format('woff'), * Modern Browsers *
-  url('../fonts/SangBleuKingdom-Lightitalic.ttf')  format('truetype')
-  url('../fonts/SangBleuKingdom-Lightitalic.svg#SangBleuKingdom-Lightitalic') format('svg'), /* Legacy iOS */
-  url('../fonts/SangBleuKingdom-Lightitalic.woff2') format('woff2'); /* Modern Browsers */; * Safari, Android, iOS *
+  src: url('fonts/SangBleuKingdom-Lightitalic.eot'), * IE9 Compat Modes *
+  url('fonts/SangBleuKingdom-Lightitalic.eot#iefix') format('embedded-opentype'), * IE6-IE8 *
+  url('fonts/SangBleuKingdom-Lightitalic.otf') format("opentype"), /* Open Type Font */
+  url('fonts/SangBleuKingdom-Lightitalic.woff') format('woff'), * Modern Browsers *
+  url('fonts/SangBleuKingdom-Lightitalic.ttf')  format('truetype')
+  url('fonts/SangBleuKingdom-Lightitalic.svg#SangBleuKingdom-Lightitalic') format('svg'), /* Legacy iOS */
+  url('fonts/SangBleuKingdom-Lightitalic.woff2') format('woff2'); /* Modern Browsers */; * Safari, Android, iOS *
 }
 
 
