@@ -6,7 +6,7 @@
   url("fonts/CooperBI.otf") format("opentype"), /* Open Type Font */
   url("fonts/CooperB.woff") format("woff"), * Modern Browsers *
   url("fonts/CooperB.ttf")  format("truetype"), * Safari, Android, iOS *
-  url("fonts/CooperB.svg#CooperB") format("svg"), /* Legacy iOS */
+  url("fonts/CooperB.svg") format("svg"), /* Legacy iOS */
   url("fonts/CooperB.woff2") format("woff2"); /* Modern Browsers */
 }
 @font-face {
@@ -14,7 +14,7 @@
   src: url("fonts/CooperBi.eot"), /* IE9 Compat Modes */
    url("fonts/CooperBi.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("fonts/CooperBi.otf") format("opentype"), /* Open Type Font */
-    url("fonts/CooperBi.svg#CooperBi") format("svg"), /* Legacy iOS */
+    url("fonts/CooperBi.svg") format("svg"), /* Legacy iOS */
     url("fonts/CooperBi.ttf") format("truetype"), /* Safari, Android, iOS */
     url("fonts/CooperBi.woff") format("woff"), /* Modern Browsers */
     url("fonts/CooperBi.woff2") format("woff2"); /* Modern Browsers */
@@ -28,7 +28,7 @@
   url("fonts/SBKLi.otf") format("opentype"), /* Open Type Font */
   url("fonts/SBKLi.woff") format("woff"), * Modern Browsers *
   url("fonts/SBKLi.ttf")  format("truetype")
-  url("fonts/SBKLi.svg#SBKLi") format("svg"), /* Legacy iOS */
+  url("fonts/SBKLi.svg") format("svg"), /* Legacy iOS */
   url("fonts/SBKLi.woff2") format("woff2"); /* Modern Browsers */; * Safari, Android, iOS *
 }
 
