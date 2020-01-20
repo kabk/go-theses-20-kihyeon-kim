@@ -51,7 +51,7 @@ html,body{
 }
 
 .cover {
-    font-family: "CooperB";
+    font-family: 'CooperB';
     color: white;
     height: 100%;
     width: 100%;
@@ -102,14 +102,14 @@ html,body{
 }
 
 h1 {
-  font-family: "CooperB";
+  font-family: 'CooperB';
   color: black;
   font-size: 1.5vw;
   margin-block-end: 3em;
 }
 
 h1 i {
-  font-family: "CooperBi";
+  font-family: 'CooperBi';
 }
 
 h1 p {
@@ -121,7 +121,7 @@ h1 p {
 }
 
 h2 {
-  font-family:"SBKLi";
+  font-family:'SBKLi';
   color: black;
   font-size: 1.5vw;
   margin-block-end: 3em;
@@ -137,7 +137,7 @@ h3 {
 
 
 h4 {
-  font-family: "CooperB";
+  font-family: 'CooperB';
   color: black;
   font-size: 16vw;
   line-height: 18vw;
@@ -146,7 +146,7 @@ h4 {
 }
 
 h4 i {
-  font-family: "CooperBi";
+  font-family: 'CooperBi';
 }
 
 
@@ -159,13 +159,13 @@ h4 i {
 }
 
 #invert p {
-  font-family:"SBKLi";
+  font-family:'SBKLi';
   color: white;
   font-size: 1.5vw;
 }
 
 #invert a{
-  font-family:"SBKLi";
+  font-family:'SBKLi';
   color: white;
   font-size: 10vw;
   line-height: 12vw;
@@ -218,7 +218,7 @@ h4 i {
 .table a{
   text-decoration: none;
   color: white;
-  font-family: "CooperB";
+  font-family: 'CooperB';
   font-size: 3.5vw;
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -251,7 +251,7 @@ h4 i {
 
 
 h5 {
-  font-family: "CooperB";
+  font-family: 'CooperB';
   font-size: 0.6vh;
   color: black;
 }
@@ -264,7 +264,7 @@ h5 {
   bottom: 0;
   padding: 2% 4% 1% 4%;
   border-top: 1px  white solid;
-  font-family: "CooperB";
+  font-family: 'CooperB';
       text-decoration: none;
         font-size: 3vw;
         color: white;
