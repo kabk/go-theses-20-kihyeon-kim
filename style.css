@@ -56,17 +56,17 @@ html,body{
 }
 
 .cover {
+    margin: 0;
+    padding: 0;
+    top: 0;
     font-family: "Cooper";
     color: white;
     height: 100%;
     width: 100%;
     overflow: scroll;
-    margin: 0;
-    padding: 0;
-    top: 0;
     position: absolute;
     z-index: 100000;
-    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,0,0,0));
+    background: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,89), rgba(0,0,0,0.8), rgba(0,0,0,5), rgba(0,0,0,0));
 }
 
 .title{
@@ -74,8 +74,8 @@ html,body{
 
 
 .title p {
-  font-size: 18vw;
-  line-height: 18vw;
+  font-size: 11em;
+  line-height: 11em;
   text-decoration: none;
   padding: 4%;
   margin-block-start: 0em;
@@ -83,8 +83,7 @@ html,body{
 }
 
 .name{
-  font-size: 5vw;
-  line-height: 7vw;
+  font-size: 3em;
   position:absolute;
   width: 100%;
   padding: 4%;
@@ -93,7 +92,7 @@ html,body{
 
 .name p {
     margin-block-start: 0em;
-        margin-block-end: 0em;
+    margin-block-end: 0em;
 }
 
 #close {
@@ -102,14 +101,14 @@ html,body{
   right: 0;
   margin: 0;
   padding: 1%;
-  font-size: 18vw;
+  font-size: 11em;
   width: 140px;
 }
 
 #h1 {
   font-family: "Cooper";
   color: black;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   /* font-weight: lighter; */
   margin-block-end: 3em;
 }
@@ -129,7 +128,7 @@ html,body{
 #h2 {
   font-family:"SangBleu";
   color: black;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   /* font-weight: lighter; */
   margin-block-end: 3em;
 }
@@ -146,8 +145,8 @@ html,body{
 #h4 {
   font-family: "Cooper";
   color: black;
-  font-size: 16vw;
-  line-height: 18vw;
+  font-size: 11em;
+  line-height: 1em;
   margin-block-start: 0em;
   margin-block-end: 0em;
   /* font-weight: lighter; */
@@ -169,7 +168,7 @@ html,body{
 #invert p {
   font-family:"SangBleu";
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.3em;
   /* font-weight: lighter; */
 }
 
@@ -229,7 +228,7 @@ html,body{
   text-decoration: none;
   color: white;
   font-family: "Cooper";
-  font-size: 3.5vw;
+  font-size: 3.3em;
   margin-block-start: 0em;
   margin-block-end: 0em;
   /* font-weight: normal; */
@@ -263,7 +262,7 @@ html,body{
 
 #h5 {
   font-family: "Cooper";
-  font-size: 0.6vh;
+  font-size: 0.8em;
   color: black;
   /* font-weight: lighter; */
 }
