@@ -38,6 +38,7 @@ var conH = $(".container").height();
       elePosY5 = (pos5.top);
 
 
+
 $(".container").scroll(function() {
 
     // var height = $(".text").height();
@@ -72,60 +73,12 @@ $(".container").scroll(function() {
       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=B0OvEOXxLbA" target=”_blank” >H.O.T - 행복(Happiness), MBC Top Music 19970823</a>');
     }
 
+    $box = $('.vidsrcs');
+    $box.children().each(function(){
+      {
+        $(this).wrap('<marquee>');
+      }
+
+    });
+
   });
-
-
-   //    else if (value > elePosY2 && value < elePosY3)
-   //      $(".vids").attr("src", vid3);
-      // else if (value > elePosY4 && value < elePosY5)
-      //    $(".vids").attr("src", vid4);
-      // else if (value > elePosY5 && value < elePosY6)
-      //   $(".vids").attr("src", vid5);
-      // else if (value > elePosY6 && value < elePosY7)
-      //    $(".vids").attr("src", vid6);
-      // else if (value > elePosY7 && value < elePosY8)
-      //   $(".vids").attr("src", vid7);
-      // else if (value > elePosY8 && value < elePosY9)
-      //    $(".vids").attr("src", vid8);
-      // else if (value > elePosY9 && value < elePosY10)
-      //   $(".vids").attr("src", vid9;
-      // else if (value > elePosY10 && value < elePosY11)
-      //    $(".vids").attr("src", vid10);
-      // else if (value > elePosY11 && value < elePosY12)
-      //   $(".vids").attr("src", vid11;
-      // else if (value > elePosY12 && value < elePosY13)
-      //    $(".vids").attr("src", vid12);
-      // else if (value > elePosY13 && value < elePosY14)
-      //   $(".vids").attr("src", vid13;
-      // else if (value > elePosY14 && value < elePosY15)
-      //    $(".vids").attr("src", vid14);
-      // else if (value > elePosY15 && value < elePosY16)
-      //   $(".vids").attr("src", vid15;
-      // else if (value > elePosY16 && value < elePosY17)
-      //    $(".vids").attr("src", vid16);
-      // else if (value > elePosY17 && value < elePosY18)
-      //   $(".vids").attr("src", vid17;
-      // else if (value > elePosY18 && value < elePosY19)
-      //    $(".vids").attr("src", vid18);
-      // else if (value > elePosY19 && value < elePosY20)
-      //    $(".vids").attr("src", vid19);
-      // else if (value > elePosY18 && value < elePosY21)
-      //    $(".vids").attr("src", vid20);
-      // else if (value > elePosY21 && value < elePosY22)
-      //   $(".vids").attr("src", vid21;
-      // else if (value > elePosY22 && value < elePosY23)
-      //    $(".vids").attr("src", vid22);
-      // else if (value > elePosY23 && value < elePosY24)
-      //   $(".vids").attr("src", vid23;
-      // else if (value > elePosY24 && value < elePosY25)
-      //    $(".vids").attr("src", vid24);
-      // else if (value > elePosY25 && value < elePosY26)
-      //   $(".vids").attr("src", vid25;
-      // else if (value > elePosY26 && value < elePosY27)
-      //    $(".vids").attr("src", vid26);
-      // else if (value > elePosY27 && value < elePosY28)
-      //   $(".vids").attr("src", vid27;
-      // else if (value > elePosY28 && value < elePosY29)
-      //    $(".vids").attr("src", vid28);
-      // else if (value > elePosY29 && value < elePosY30)
-      //    $(".vids").attr("src", vid29);
