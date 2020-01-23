@@ -10,7 +10,7 @@ var video_count =1,
     videoPlayer = document.getElementById("vids");
 
 var tag_count =1,
-    tagbox = document.getElementById("vidtag");
+    tagbox = document.getElementById("vidtag")[0];
 
 function yourNextFunction (){
       video_count++;
@@ -21,8 +21,8 @@ function yourNextFunction (){
 
       tag_count ++;
       if (tag_count == 16) tag_count = 1;
-      var nextTag = ;
-      tagbox.html = nextTag;
+      var nextTag = document.getElementById("")[tag_count-1];
+      // tagbox.html = nextTag;
 }
 
 var el = document.getElementById("prevButton");
