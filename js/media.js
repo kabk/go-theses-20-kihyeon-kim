@@ -9,8 +9,8 @@ if (el.addEventListener) {
 var video_count =1,
     videoPlayer = document.getElementById("vids");
 
-var tag_count =1,
-    tagbox = document.getElementById("vidtag")[0];
+// var tag_count =1,
+//     tagbox = document.getElementById("vidtag")[0];
 
 function yourNextFunction (){
       video_count++;
@@ -19,9 +19,9 @@ function yourNextFunction (){
       videoPlayer.src = nextVideo;
       videoPlayer.play();
 
-      tag_count ++;
-      if (tag_count == 16) tag_count = 1;
-      var nextTag = document.getElementById("")[tag_count-1];
+      // tag_count ++;
+      // if (tag_count == 16) tag_count = 1;
+      // var nextTag = document.getElementById("")[tag_count-1];
       // tagbox.html = nextTag;
 }
 
