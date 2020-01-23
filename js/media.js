@@ -1,84 +1,86 @@
-var vid1 = "vids/video1.mp4",
-    vid2 = "vids/video2.mp4",
-    vid3 = "vids/video3.mp4",
-    vid4 = "vids/video4.mp4",
-    vid5 = "vids/video5.mp4";
-    // vid4 = "vids/video4.mp4",
-    // vid5 = "vids/video5.mp4",
-    // vid6 = "vids/video6.mp4",
-    // vid7 = "vids/video7.mp4",
-    // vid8 = "vids/video8.mp4",
-    // vid9 = "vids/video9.mp4",
-    // vid10 = "vids/video10.mp4",
-    // vid11 = "vids/video11.mp4",
-    // vid12 = "vids/video12.mp4",
-    // vid13 = "vids/video13.mp4",
-    // vid14 = "vids/video14.mp4",
-    // vid15 = "vids/video15.mp4",
-    // vid16 = "vids/video16.mp4",
-    // vid17 = "vids/video17.mp4",
-    // vid18 = "vids/video18.mp4",
-    // vid19 = "vids/video19.mp4",
-    // vid20 = "vids/video20.mp4",
+
+var el = document.getElementById("nextButton");
+if (el.addEventListener) {
+    el.addEventListener("click", yourNextFunction, false);
+} else {
+    el.attachEvent('onclick', yourNextFunction);
+}
+
+var video_count =1,
+    videoPlayer = document.getElementById("vids");
+
+var tag_count =1,
+    tagbox = document.getElementById("vidtag");
+
+function yourNextFunction (){
+      video_count++;
+      if (video_count == 16) video_count = 1;
+      var nextVideo = "vids/video"+video_count+".mp4";
+      videoPlayer.src = nextVideo;
+      videoPlayer.play();
+
+      tag_count ++;
+      if (tag_count == 16) tag_count = 1;
+      var nextTag = ;
+      tagbox.html = nextTag;
+}
+
+var el = document.getElementById("prevButton");
+if (el.addEventListener) {
+    el.addEventListener("click", yourPrevFunction, false);
+} else {
+    el.attachEvent('onclick', yourPrevFunction);
+}
+
+var video_count =1,
+    videoPlayer = document.getElementById("vids");
+
+function yourPrevFunction (){
+      video_count--;
+      if (video_count == 16) video_count = 1;
+      var prevVideo = "vids/video"+video_count+".mp4";
+      videoPlayer.src = prevVideo;
+      videoPlayer.play();
+}
+
+
+
+var vid1= $('#vid1').get(0),
+    vid2= $('#vid2').get(0),
+    vid3= $('#vid3').get(0),
+    vid4= $('#vid4').get(0),
+    vid5= $('#vid5').get(0);
+
+
+
+
+  // vid2.on('play', function () {
+  // $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=Emvjbd3BCs8" target=”_blank” > 창작 안무도 찰떡! 파워풀한 벨기에 대표팀의 ′휘파람(whistle)′♬ 스테이지 K(STAGE K) 8회</a>');
+  // })
+
+  // if (!vid1.paused && !vid1.ended) {
+  //   $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=7-POT4Dn7uI" target=”_blank” >[KCON Mexico] BTS-INTRO+Not Today 170330 EP.517</a>');
+  // }
+  // if (!vid2.paused && !vid2.ended) {
+  //       $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=Emvjbd3BCs8" target=”_blank” > 창작 안무도 찰떡! 파워풀한 벨기에 대표팀의 ′휘파람(whistle)′♬ 스테이지 K(STAGE K) 8회</a>');
   //
-  var pos1 = $(".ref1").position(),
-      pos2 = $(".ref2").position(),
-      pos3 = $(".ref3").position(),
-      pos4 = $(".ref4").position(),
-      pos5 = $(".ref5").position();
-
-var mediaH = $(".media").height();
-var conH = $(".container").height();
-
-
-  var elePosY1 = (pos1.top),
-      elePosY2 = (pos2.top),
-      elePosY3 = (pos3.top),
-      elePosY4 = (pos4.top),
-      elePosY5 = (pos5.top);
+  // }
+  // if (!vid3.paused && !vid3.ended) {
+  //   $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=kKo9xbN8zR0" target=”_blank” >GOTOE-S KPOP RANDOM PLAY DANCE in Koln-Germany with HISTORY OF KPOP - dress code RED</a>');
+  // }
+  // if (!vid4.paused && !vid4.ended) {
+  //   $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=2xU2PyI-sEI" target=”_blank” > [ITZY - DALLA DALLA] Debut Stage | M COUNTDOWN 190214 EP.606</a>');
+  // }
+  // if (!vid5.paused && !vid5.ended) {
+  //     $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=HmwgNRwp4JU" target=”_blank” > PRODUCE48 [1회] 첫 도전! 울림(러블리즈)과 WM(오마이걸)의 실력파 연습생!ㅣ울림김수윤, 권은비, 김소희, 김채원, WM이채연, 이승현, 조영인 180615 EP.1</a>');
+  // }
 
 
 
-$(".container").scroll(function() {
+$box = $('#vidtag');
 
-    // var height = $(".text").height();
-
-  var value = $(".container").scrollTop();
-
-    console.log (value);
-    console.log(elePosY1,elePosY2);
-
-  var value = (($(".container").scrollTop())-(elePosY1)+(conH));
-
-   if (value > elePosY1 && (value < elePosY2)) {
-      $(".vids").attr("src", vid1);
-      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=7-POT4Dn7uI" target=”_blank” >[KCON Mexico] BTS-INTRO+Not Today 170330 EP.517</a>');
+$box.children().each(function(){
+    {
+      $(this).wrap('<marquee>');
     }
-     if (value > elePosY2) {
-      $(".vids").attr("src", vid2);
-      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=JjSEsIzn3B4" target=”_blank” > ATEEZ(에이티즈) WONDERLAND (Color Coded Lyrics Eng/Rom/Han/가사)</a>');
-    }
-
-    if  (value > elePosY3) {
-      $(".vids").attr("src", vid3);
-      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=2xU2PyI-sEI" target=”_blank” >[ITZY - DALLA DALLA] Debut Stage | M COUNTDOWN 190214 EP.606</a>');
-    }
-
-    if  (value > elePosY4) {
-      $(".vids").attr("src", vid4);
-      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=HmwgNRwp4JU" target=”_blank” >PRODUCE48 [1회] 첫 도전! 울림(러블리즈)과 WM(오마이걸)의 실력파 연습생!ㅣ울림김수윤, 권은비, 김소희, 김채원, WM이채연, 이승현, 조영인 180615 EP.1</a>');
-    }
-    if  (value > elePosY5) {
-      $(".vids").attr("src", vid5);
-      $('.vidsrcs').html('<a href="https://www.youtube.com/watch?v=B0OvEOXxLbA" target=”_blank” >H.O.T - 행복(Happiness), MBC Top Music 19970823</a>');
-    }
-
-    $box = $('.vidsrcs');
-    $box.children().each(function(){
-      {
-        $(this).wrap('<marquee>');
-      }
-
-    });
-
   });

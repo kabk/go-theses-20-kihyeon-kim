@@ -47,6 +47,29 @@ html,body{
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.button {
+  z-index: 10000;
+  position: fixed;
+  font-size: 7em;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  top: 10%;
+  mix-blend-mode:exclusion;
+  font-family: 'SangBleuKingdom-Regular';
+}
+
+#nextButton {
+
+  right: 0;
+}
+#prevButton {
+  left: 0;
 }
 
 
@@ -255,12 +278,12 @@ html,body{
   margin: 4%;
 }
 
-
+/*
 
 .text span {
   border: 6px outset white;
   border-radius: 40px;
-}
+} */
 
 
 #h5 {
